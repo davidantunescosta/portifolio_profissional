@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="css/style_content.css">
+  <link rel="stylesheet" href="css/media_query.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+</head>
+<body>
+  <header class="content">
+
+    <div class="logo">
+      <img src="img/logo-removebg-preview.png" alt="logo">
+    </div>
+
+    <nav>
+      <ul class="menu-home">
+        <li>
+          <a href="#sobre">Sobre mim</a>
+        </li>
+
+        <li>
+          <a href="#projetos">Meus Projetos</a>
+        </li>
+
+        <li>
+          <a href="#contato">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="menu-toggle">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+  </header>
+
+  <section class="main-title">
+    <h1> David Costa</h1>
+    <h2>FrontEnd Developer</h2>
+    <button class="btn-more"><a href="#sobre">Saber mais </a></button>
+  </section>
+  
+  <!------------------------------Sobre----------------------->
+  <section class="c-sobre" id="sobre">
+
+    <div class="image">
+      <img src="img/hand-coding-animate.svg" alt="sobre">
+    </div>
+
+    <div class="sobre-mim">
+      <h1>Sobre mim</h1>
+      <h4>Desenvolvedor <span>FrontEnd</span></h4>
+
+      <p>
+        Olá, sou David Costa, sou formador pela Unisuam - Redes de Computadores e estudando na Pós - MBA em Governança em TI, buscando melhorias na carreira da Técnologia, novo na área de Desenvolvimento FrontEnd:
+        Estudo as técnologias: HTML e CSS 
+        Estudo a linguagem de programação: JavaScript
+
+        Sou um profissional versátil que entrega 100% em tudo que faço, com bastante foco e determinação para entregar o melhor resultado para usuário final! 
+      </p>
+
+      <button class="btn">
+        <a href="Curriculo.pdf" download="Curriculo.pdf">Meu currículo</a>
+      </button>
+    </div>
+  </section>
+
+
+  <!------------------------------Projetos----------------------->
+  <section class="c-projetos" id="projetos">
+    <h1>Projetos</h1>
+    <p>Abaixo será possível visualizar alguns dos projetos desenvolvidos por mim.</p>
+
+    <div class="img-projetos">
+
+      <div class="card-character">
+        <div class="image-projeto">
+          <img src="img/dolores.jpg" alt="dolores-club">
+          <a target="_blank" href="https://davidantunescosta.github.io/doloresclub/"><button>Ver Projetos</a></button>
+        </div>
+      </div>
+
+      <div class="card-character">
+        <div class="image-projeto">
+          <img src="img/rioscenarium.jpg" alt="RioScenarium">
+          <a target="_blank" href="https://davidantunescosta.github.io/eventos/"><button>Ver Projetos</a></button>
+        </div>
+      </div>
+
+      <div class="card-character">
+        <div class="image-projeto">
+          <img src="img/to-de-list.jpg" alt="to-de-list">
+          <a target="_blank" href="https://davidantunescosta.github.io/to-do-list/"><button>Ver Projetos</a></button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="c-rodape" id="contato">
+    <h1>Entre em contato para saber mais.</h1>
+    <form action="https://formsubmit.co/david.antunes.costa@hotmail.com" method="POST">
+      <input  type="email" name="email" placeholder="Informe seu email" required>
+      <textarea name="experiencia" id="experiencia" cols="30" rows="10" required placeholder="Conte um pouco da sua necessidade"></textarea>
+      
+      <input type="hidden" name="_next" value="https://davidantunescosta.github.io/repositorio/obrigado.html">
+
+      <button id="btnsubmit" type="submit" value="https://davidantunescosta.github.io/repositorio/obrigado.html">Enviar</button>
+    </form>
+
+    <p>©Development by <a target="_blank" href="https://github.com/davidantunescosta"><strong>David
+    Costa</strong></a>, all rights reserved.</p>
+
+  <div class="c-icon2">
+    <a target="_blank" href="https://github.com/davidantunescosta"><span class="icon">
+      <i class="fa-brands fa-github"></i></span></a>
+
+    <a target="_blank" href="https://www.linkedin.com/in/david-costa-00960b152/"><span class="icon">
+      <i class="fa-brands fa-linkedin-in"></i></span></a>
+
+    <a target="_blank" href="https://www.instagram.com/antunees_fe/"><span class="icon">
+      <i class="fa-brands fa-instagram"></i></span></a>
+
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=5521971523095"><span class="icon">
+      <i class="fa-brands fa-whatsapp"></i></span></a>
+  </div>
+  </section>
+
+
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>

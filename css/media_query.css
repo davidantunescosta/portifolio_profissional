@@ -1,0 +1,263 @@
+@media (min-width: 1201px) {
+  .c-rodape  {
+    font-size: 13px;
+    border-radius: 20px 0px 20px 0px;
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-top: 11px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 1200px) {
+
+.main-title h1 {
+  font-size: 40px;
+  margin-top: 16%;
+  margin-right: 4%;
+ } 
+
+ .main-title h2{
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 4%;
+}
+
+.main-title button{ 
+  padding: 12px;
+  font-size: 14px;
+  width: 40%;
+}
+
+.c-sobre .image {
+  margin-bottom: 50px;
+}
+
+}
+
+@media (max-width: 800px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+    justify-content: center;
+  }
+
+  .content .menu-home {
+    display: none;
+  }
+
+  .main-title h1 {
+    font-size: 50px;
+    margin-top: 16%;
+    margin-right: 4%;
+   } 
+  
+   .main-title h2{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 4%;
+  }
+  
+  .main-title button{ 
+    padding: 14px;
+    font-size: 14px;
+    width: 35%;
+  }
+
+  .c-projetos h1 {
+    font-size: 40px;
+  }
+
+  .card-character .image-projeto button {
+    opacity: 1;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  .image-projeto {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .image {
+    width: 70%;
+  }
+
+  .sobre-mim {
+    background-color: rgb(191, 191, 191);
+    border-radius: 40px 0px 40px 0px;
+    padding: 10px;
+    box-shadow: 4px 8px 10px #322c8e, 4px 4px 2px;
+  }
+
+  .one,
+  .two,
+  .three {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    margin: 6px auto;
+    transition-duration: 0.5s;
+  }
+
+  .menu-toggle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .content.on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(30, 31, 30, 0.8);
+    z-index: 10;
+    align-items: center;
+  }
+
+  .content.on .logo {
+    display: none;
+  }
+
+  .content.on .menu-toggle {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+
+  .content.on .menu-home {
+    display: block;
+  }
+
+  .content.on .menu-home li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content.on .list-menu li a {
+    font-size: 16px;
+  }
+
+  .content.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .content.on .menu-toggle .one {
+    transform: rotate(45deg) translate(5px, -8px);
+  }
+
+  .content.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(20px, -6px);
+  }
+
+}
+
+@media (max-width: 652px) {
+  .main-title h1 {
+    font-size: 40px;
+    margin-top: 16%;
+    margin-right: 4%;
+   } 
+  
+   .main-title h2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 4%;
+  }
+  
+  .main-title button{ 
+    padding: 14px;
+    font-size: 14px;
+    width: 40%;
+  }
+  
+  .sobre-mim {
+    background-color: rgb(191, 191, 191);
+    border-radius: 40px 0px 40px 0px;
+    padding: 5px;
+    box-shadow: 4px 8px 10px #322c8e, 4px 4px 2px;
+  }
+
+  .c-projetos h1 {
+    font-size: 40px;
+  }
+
+  .image-projeto {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-character .image-projeto button {
+    opacity: 1;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 8px;
+  }
+
+}
+
+@media (max-width:395px) {
+  .main-title h1 {
+    font-size: 30px;
+    margin-top: 16%;
+    margin-right: 4%;
+   } 
+  
+   .main-title h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 4%;
+  }
+  
+  .main-title button{ 
+    width: 40%;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .sobre-mim h1 {
+    font-size: 30px;
+  }
+
+  .sobre-mim h4 {
+    font-size: 20px;
+  }
+
+  .sobre-mim .btn {
+    font-size: 15px;
+    margin-left: 30%;
+  }
+
+  .c-projetos h1 {
+    font-size: 35px;
+  }
+
+  .c-projetos p {
+    font-size: 18px;
+  }
+
+  .image-projeto img{
+    width: 80%;
+  }
+
+ 
+.c-rodape {
+  width: 100%; 
+}
+}
